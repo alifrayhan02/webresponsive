@@ -1,0 +1,1172 @@
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+*{
+		box-sizing: border-box;
+	}
+
+	[class*="col-"] { float: left; padding: 15px; }
+
+	/* For Smartphone*/
+	[class*="col-"] { width: 100%; }
+
+	@media only screen and (min-width: 600px){
+		/* For Tablet: */
+		.col-s-1 {width: 8.33%;}
+		.col-s-2 {width: 16.66%;}
+		.col-s-3 {width: 25%;}
+		.col-s-4 {width: 33.33%;}
+		.col-s-5 {width: 41.66%;}
+		.col-s-6 {width: 50%;}
+		.col-s-7 {width: 58.33%;}
+		.col-s-8 {width: 66.66%;}
+		.col-s-9 {width: 75%;}
+		.col-s-10 {width: 83.33%;}
+		.col-s-11 {width: 91.66%;}
+		.col-s-12 {width: 100%;}
+	}
+	@media only screen and (min-width: 768px){
+		/* For desktop: */
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;} 
+		.col-5 {width: 41.66%;} 
+		.col-6 {width: 50%;} 
+		.col-7 {width: 58.33%;} 
+		.col-8 {width: 66.66%;} 
+		.col-9 {width: 75%;} 
+		.col-10 {width: 83.33%;} 
+		.col-11 {width: 91.66%;} 
+		.col-12 {width: 100%;}
+
+	}
+.menu{
+	height: 70px;
+	width: 100%;
+	background-image: linear-gradient(to top, #00000000 0, #2d2d2d 130%);
+	font-family: Tw Cen Mt;
+	position: fixed;
+	top: 0;
+	right: 0;
+    left: 0;
+    z-index: 1;
+}
+.menu ul{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.menu ul li{
+	float: right;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 20px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	position: relative;
+}
+.menu ul li a:hover{
+	border-top: 2px solid lightgreen;
+	color: lightgreen;
+}
+.menu img{
+	float: left;
+	width: 80px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.header{
+	width: 100%;
+	height: 800px;
+	background: url(balkot.jpg) no-repeat center;
+	float: left;
+	background-attachment: fixed;
+  	background-size: cover;
+  	min-height: 500px;
+}
+.bayangan{
+	width: 100%;
+	height: 800px;
+	background: black;
+	float: left;
+	opacity: 0.6;
+}
+.header h3{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	top: 150px;
+	left: 532px; 
+	font-size: 50px;
+	font-weight: 10;
+	font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+.header h3 img{
+	width: 450px;
+	height: 320px;
+}
+.tentang{
+	width: 100%;
+	height: 400px;
+	float: left;
+	margin-top: 80px;
+}
+.tentang .left{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.tentang .left h2{
+	padding-right: 20px;
+	text-align: right;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-right: 20px;
+	border-right: 3px solid lightgreen;
+}
+.tentang .left p{
+	text-align: right;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+}
+.tentang .right{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.tentang .right img{
+	width: 600px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 40px;
+	border: 35px solid black;
+	border-radius: 15px;
+}
+.kebudayaan{
+	width: 100%;
+	height: 200px;
+	float: left;
+	position: flex;
+	margin-top: 180px;
+}
+.kebudayaan .bunder{
+	width: 100px;
+	height: 100px;
+	background: lightgreen;
+	border-radius: 50%;
+	display: flex;
+	margin: 0 auto;
+}
+.kebudayaan .bunder span{
+	font-size: 70px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+.bg-lightgreen{color: lightgreen;}
+.kebudayaan h1{
+	text-align: center;
+	font-size: 46px;
+	color: black;
+	font-family: Montserrat, sans-serif;
+	line-height: 46px;
+	font-weight: 500;
+}
+.isi{
+  width: 100%
+  height: auto;
+  float: left;
+  margin-top: 35px;
+} 
+.isi .maltemp{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.isi .maltemp .left {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.isi .maltemp .left h2{
+	padding-right: 20px;
+	text-align: right;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-right: 20px;
+}
+.isi .maltemp .left p{
+	text-align: right;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+}
+.isi .maltemp .right{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.isi .maltemp .right img{
+	width: 550px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 40px;
+	border-radius: 15px;
+}
+.isi .topmali{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.isi .topmali .left {
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.isi .topmali .left h2{
+	padding-right: 20px;
+	text-align: left;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-left: 40px;
+}
+.isi .topmali .left p{
+	text-align: left;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.isi .topmali .right{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.isi .topmali .right img{
+	width: 500px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 200px;
+	border-radius: 15px;
+}
+.isi .tarban{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.isi .tarban .left {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.isi .tarban .left h2{
+	padding-right: 20px;
+	text-align: right;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-right: 20px;
+}
+.isi .tarban .left p{
+	text-align: right;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+}
+.isi .tarban .right{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.isi .tarban .right img{
+	width: 550px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 40px;
+	border-radius: 15px;
+}
+.isi .tarbeskalan{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.isi .tarbeskalan .left {
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.isi .tarbeskalan .left h2{
+	padding-right: 20px;
+	text-align: left;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-left: 40px;
+}
+.isi .tarbeskalan .left p{
+	text-align: left;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.isi .tarbeskalan .right{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.isi .tarbeskalan .right img{
+	width: 500px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 200px;
+	border-radius: 15px;
+}
+.wisata{
+	width: 100%;
+	height: 300px;
+	float: left;
+	position: flex;
+	margin-top: 100px;
+	background-image: url("wisatabg.jpg"); 
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding-top: 60px;
+  	border-top: 2px solid lightgreen;
+}
+.wisata .bunder{
+	width: 100px;
+	height: 100px;
+	background: lightgreen;
+	border-radius: 50%;
+	display: flex;
+	margin: 0 auto;
+}
+.wisata .bunder span{
+	font-size: 50px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+.wisata h1{
+	text-align: center;
+	font-size: 46px;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	line-height: 46px;
+	font-weight: 500;
+}
+.musbraw{
+	width: 100%;
+	height: 600px;
+	background: url(musbraw.jpg) no-repeat top;
+	background-size: cover;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+	border-top: 2px solid lightgreen;
+}
+.musbraw .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.musbraw .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.musbraw .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.musbraw .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.musbraw .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.musbraw .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.alun{
+	width: 100%;
+	height: 600px;
+	background: url(alunalun.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.alun .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.alun .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.alun .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.alun .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.alun .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.alun .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.kamp{
+	width: 100%;
+	height: 600px;
+	background: url(kampwar1.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.kamp .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.kamp .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.kamp .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.kamp .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.kamp .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.kamp .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.bromo{
+	width: 100%;
+	height: 600px;
+	background: url(bromo.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.bromo .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.bromo .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.bromo .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.bromo .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.bromo .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.bromo .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.candi{
+	width: 100%;
+	height: 600px;
+	background: url(canso.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.candi .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.candi .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.candi .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.candi .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.candi .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.candi .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.selecta{
+	width: 100%;
+	height: 600px;
+	background: url(selecta.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.selecta .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.selecta .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.selecta .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.selecta .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.selecta .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.selecta .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.hawai{
+	width: 100%;
+	height: 600px;
+	background: url(hawai2.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.hawai .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.hawai .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.hawai .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.hawai .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.hawai .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.hawai .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.copel{
+	width: 100%;
+	height: 600px;
+	background: url(copel.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.copel .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.copel .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.copel .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.copel .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.copel .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.copel .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.bale{
+	width: 100%;
+	height: 600px;
+	background: url(bale.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.bale .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.bale .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.bale .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.bale .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.bale .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.bale .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.senbir{
+	width: 100%;
+	height: 600px;
+	background: url(senbir.jpg) no-repeat top;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+	border-bottom: 2px solid lightgreen;
+}
+.senbir .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.75;
+}
+.senbir .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 170px;
+	position: absolute;
+	float: left;
+	margin-top: 180px;
+}
+.senbir .left h2{
+	margin: 5px;
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+.senbir .left p{
+	margin: 0;
+	color: white;
+	font-size: 15px;
+}
+.senbir .right{
+	width: 50%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+.senbir .right img{
+	width: 680px;
+	height: auto;
+	margin-top: 95px;
+	margin-left: 730px;
+}
+.kuliner{
+	width: 100%;
+	height: 300px;
+	float: left;
+	position: flex;
+	background-image: url("kulinerbg.jpg"); 
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding-top: 60px;
+  	margin-top: 40px;
+  	border-bottom: 2px solid lightgreen;
+  	border-top: 2px solid lightgreen;
+}
+.kuliner .bunder{
+	width: 100px;
+	height: 100px;
+	background: lightgreen;
+	border-radius: 50%;
+	display: flex;
+	margin: 0 auto;
+}
+.kuliner .bunder span{
+	font-size: 40px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+.kuliner h1{
+	text-align: center;
+	font-size: 46px;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	line-height: 46px;
+	font-weight: 500;
+}
+.isikul{
+	width: 100%;
+	height: auto;
+	float: left
+} 
+.isikul .bakpres{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 40px;
+}
+.isikul .bakpres .left {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.isikul .bakpres .left h2{
+	padding-right: 20px;
+	text-align: right;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-right: 20px;
+}
+.isikul .bakpres .left p{
+	text-align: right;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+}
+.isikul .bakpres .right{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.isikul .bakpres .right img{
+	width: 550px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 40px;
+	border-radius: 15px;
+}
+.isikul .bakbol{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.isikul .bakbol .left {
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.isikul .bakbol .left h2{
+	padding-right: 20px;
+	text-align: left;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-left: 40px;
+}
+.isikul .bakbol .left p{
+	text-align: left;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.isikul .bakbol .right{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.isikul .bakbol .right img{
+	width: 500px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 200px;
+	border-radius: 15px;
+}
+.isikul .oen{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.isikul .oen .left {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.isikul .oen .left h2{
+	padding-right: 20px;
+	text-align: right;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-right: 20px;
+}
+.isikul .oen .left p{
+	text-align: right;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+}
+.isikul .oen .right{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.isikul .oen .right img{
+	width: 550px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 40px;
+	border-radius: 15px;
+}
+.isikul .putu{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.isikul .putu .left {
+	width: 50%;
+	height: auto;
+	float: right;
+}
+.isikul .putu .left h2{
+	padding-right: 20px;
+	text-align: left;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	margin-left: 40px;
+}
+.isikul .putu .left p{
+	text-align: left;
+	margin-right: 20px;
+	color: grey;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.isikul .putu .right{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.isikul .putu .right img{
+	width: 500px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 200px;
+	border-radius: 15px;
+}
+div.footer1{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #222;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+div.footer1 .col{
+	width: 50%;
+	height: auto;
+	color: #fff;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+div.footer1 .col img{
+	width: 156px;
+	height: auto;
+	border-radius: 100px;
+}
+div.footer1 .col h2{
+	font-size: 17px;
+	font-weight: 200;
+	color: lightgray;
+	margin-top: 30px;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+div.footer1 .col p{
+	color: gray;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 100;
+	font-family: Century Gothic, sans-serif;
+}
+
+div.footer1 .col .ikon{
+	margin-top: -10px;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	margin-left: 90px;
+}
+
+div.footer1 .col .ikon a{
+	font-size: 30px;
+	text-decoration: none;
+	margin: 10px;
+	color: gray;
+	margin-left: 105px;
+	margin-top: 20px;
+}
+
+div.footer1 .col .ikon a:hover{
+	color: lightgray;
+}
+div.footer-2{
+	width: 100%;
+	height: 50px;
+	background: #111;
+	float: left;
+}
+
+div.footer-2 .col1{
+	width: 50%;
+	height: auto;
+	color: #fff;
+	float: left;
+	box-sizing: border-box;
+}
+
+div.footer-2 .col2{
+	width: 50%;
+	height: auto;
+	color: #fff;
+	float: right;
+	box-sizing: border-box;
+}
+
+div.footer-2 .col1 h2{
+	color: gray;
+	margin-left: 100px;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 15px;
+	font-weight: 100;
+	font-family: Century Gothic, sans-serif;
+}
+
+div.footer-2 .col2 h2{
+	color: gray;
+	margin-right: 80px;
+	text-align: right;
+	font-size: 15px;
+	margin-top: 15px;
+	font-weight: 100;
+	font-family: Century Gothic, sans-serif;
+}
